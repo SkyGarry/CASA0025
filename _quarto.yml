@@ -7,8 +7,7 @@ book:
   author: "Group Name"
   date: "01/01/2024"
   chapters:
-    - index.qmd
-
+    - casa0025.qmd
   repo-actions: [edit]
   downloads: [pdf, epub]
   sharing: [twitter, facebook]
