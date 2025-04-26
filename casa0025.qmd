@@ -565,5 +565,3 @@ var chartTabs = ui.Select({
 
 
 
-
-
