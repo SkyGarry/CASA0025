@@ -55,25 +55,30 @@ decision-making.
 Source of data: Neighborhood Council Boundaries (2018)
 https://geohub.lacity.org/datasets/674f80b8edee4bf48551512896a1821d_0/explore?location=34.299731%2C-118.430536%2C8.93
 
-USGS Landsat 8 Level 2, Collection 2, Tier 1
+USGS Landsat 8 Level 2, Collection 2, Tier 1\
 https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2
 
 MOD11A2 v006 MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3
-Global 1 km SIN GridPI: Zhengming Wan
+Global 1 km SIN GridPI: Zhengming Wan\
 https://lpdaac.usgs.gov/products/mod11a2v006/
 
-MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m
+MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m\
 https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1?hl=zh-cn
 
-Data Processing: 1. Goal Extract annual average NDVI and LST for each
-neighborhood, analyzing ten-year trends. Each cycle starts in July and
-ends the following July. 2. Data Output • One NDVI and one LST table per
-year (10 years total) • Each table includes average values for all
-neighborhoods 3. Processing • Load boundaries for 100 incorporated
-communities in Los Angeles • Define time range (2013–2023) • Define NDVI
-and LST extraction functions and export yearly data • Loop through all
-years 4. Result See 20 export tasks in GEE. Click “Run” to export to
-Google Drive for analysis and visualization.
+Data Processing:\
+1. Goal\
+Extract annual average NDVI and LST for each neighborhood, analyzing
+ten-year trends. Each cycle starts in July and ends the following July.\
+2. Data Output\
+• One NDVI and one LST table per year (10 years total)\
+• Each table includes average values for all neighborhoods\
+3. Processing\
+• Load boundaries for 100 incorporated communities in Los Angeles\
+• Define time range (2013–2023)\
+• Define NDVI and LST extraction functions and export yearly data\
+• Loop through all years\
+4. Result See 20 export tasks in GEE.\
+Click “Run” to export to Google Drive for analysis and visualization.
 
 ### Methodology
 

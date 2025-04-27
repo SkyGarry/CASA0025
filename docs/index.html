@@ -164,10 +164,25 @@ window.Quarto = {
 <section id="data" class="level3">
 <h3 class="anchored" data-anchor-id="data">Data</h3>
 <p>Source of data: Neighborhood Council Boundaries (2018) https://geohub.lacity.org/datasets/674f80b8edee4bf48551512896a1821d_0/explore?location=34.299731%2C-118.430536%2C8.93</p>
-<p>USGS Landsat 8 Level 2, Collection 2, Tier 1 https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2</p>
-<p>MOD11A2 v006 MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1 km SIN GridPI: Zhengming Wan https://lpdaac.usgs.gov/products/mod11a2v006/</p>
-<p>MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1?hl=zh-cn</p>
-<p>Data Processing: 1. Goal Extract annual average NDVI and LST for each neighborhood, analyzing ten-year trends. Each cycle starts in July and ends the following July. 2. Data Output • One NDVI and one LST table per year (10 years total) • Each table includes average values for all neighborhoods 3. Processing • Load boundaries for 100 incorporated communities in Los Angeles • Define time range (2013–2023) • Define NDVI and LST extraction functions and export yearly data • Loop through all years 4. Result See 20 export tasks in GEE. Click “Run” to export to Google Drive for analysis and visualization.</p>
+<p>USGS Landsat 8 Level 2, Collection 2, Tier 1<br>
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2</p>
+<p>MOD11A2 v006 MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1 km SIN GridPI: Zhengming Wan<br>
+https://lpdaac.usgs.gov/products/mod11a2v006/</p>
+<p>MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m<br>
+https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1?hl=zh-cn</p>
+<p>Data Processing:<br>
+1. Goal<br>
+Extract annual average NDVI and LST for each neighborhood, analyzing ten-year trends. Each cycle starts in July and ends the following July.<br>
+2. Data Output<br>
+• One NDVI and one LST table per year (10 years total)<br>
+• Each table includes average values for all neighborhoods<br>
+3. Processing<br>
+• Load boundaries for 100 incorporated communities in Los Angeles<br>
+• Define time range (2013–2023)<br>
+• Define NDVI and LST extraction functions and export yearly data<br>
+• Loop through all years<br>
+4. Result See 20 export tasks in GEE.<br>
+Click “Run” to export to Google Drive for analysis and visualization.</p>
 </section>
 <section id="methodology" class="level3">
 <h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
